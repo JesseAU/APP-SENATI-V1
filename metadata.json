@@ -1,0 +1,8 @@
+{
+  "name": "SENATI Campus Digital",
+  "description": "Aplicación oficial para gestión académica, horarios y ubicación de aulas para estudiantes de SENATI.",
+  "requestFramePermissions": [
+    "camera",
+    "geolocation"
+  ]
+}
