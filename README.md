@@ -1,7 +1,11 @@
-📱 SENATI App - Documentación del Proyecto
-📜 Resumen EjecutivoSENATI App es una aplicación móvil progresiva diseñada específicamente para los estudiantes del SENATI. 
-Su objetivo principal es facilitar la gestión académica diaria al centralizar funcionalidades clave como la visualización de horarios, la navegación asistida en el campus, la gestión del perfil personal y un sistema de registro de asistencia mediante código QR.
+SENATI App - Documentación del Proyecto
+📱 Resumen Ejecutivo
+SENATI App es una aplicación móvil progresiva (PWA) diseñada para estudiantes del SENATI, que facilita la gestión académica diaria mediante funcionalidades de horarios, navegación en el campus y gestión de perfil.
 
-🎯 Objetivo del ProyectoDesarrollar una solución digital robusta que mejore significativamente la experiencia estudiantil en SENATI, centrándose en las siguientes áreas clave:Acceso Rápido a Horarios: Proveer una interfaz intuitiva para revisar horarios de clases actualizados.Navegación Asistida en el Campus: Implementar un sistema de guía basado en la ubicación para ayudar a los estudiantes a encontrar aulas y laboratorios.Gestión de Perfil Personalizada: Permitir a los usuarios visualizar y actualizar su información académica básica.Sistema de Escaneo QR para Asistencia: Facilitar un método rápido y preciso para el registro de asistencia a clases.
+🎯 Objetivo del Proyecto
+Desarrollar una solución digital que mejore la experiencia estudiantil en SENATI mediante:
 
-🏗️ Arquitectura Técnica🛠️ Stack TecnológicoEl proyecto utiliza un stack moderno basado en React y TypeScript para garantizar escalabilidad, mantenibilidad y un rendimiento óptimo como PWA.CategoríaTecnologíaVersiónPropósito PrincipalFrontendReact18.2.0Biblioteca principal para la interfaz de usuario.LenguajeTypeScript5.2.2Añade tipado estático para código más robusto.Build ToolVite5.1.6Empaquetador rápido para el desarrollo y producción.EstilosTailwind CSS(vía config)Framework CSS utility-first para estilos responsivos.UI IconsLucide React0.344.0Conjunto de íconos personalizables.Fechasdate-fns3.3.1Utilidades ligeras para la manipulación de fechas.
+Acceso rápido a horarios de clases
+Navegación asistida por GPS en el campus
+Gestión de perfil personalizada
+Sistema de escaneo QR para asistencia
