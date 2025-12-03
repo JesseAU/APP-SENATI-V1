@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
-import { ArrowLeft, Navigation, Locate, Compass, Trees, Building, Warehouse, MapPin } from 'lucide-react';
+import { ArrowLeft, Navigation, Locate, Compass, Building, Warehouse, MapPin } from 'lucide-react';
 import { Course } from '../types';
 
 interface MapSimulationProps {
