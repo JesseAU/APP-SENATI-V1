@@ -1,20 +1,11 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+SENATI App - Documentación del Proyecto
+📱 Resumen Ejecutivo
+SENATI App es una aplicación móvil progresiva (PWA) diseñada para estudiantes del SENATI, que facilita la gestión académica diaria mediante funcionalidades de horarios, navegación en el campus y gestión de perfil.
 
-# Run and deploy your AI Studio app
+🎯 Objetivo del Proyecto
+Desarrollar una solución digital que mejore la experiencia estudiantil en SENATI mediante:
 
-This contains everything you need to run your app locally.
-
-View your app in AI Studio: https://ai.studio/apps/temp/1
-
-## Run Locally
-
-**Prerequisites:**  Node.js
-
-
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+Acceso rápido a horarios de clases
+Navegación asistida por GPS en el campus
+Gestión de perfil personalizada
+Sistema de escaneo QR para asistencia
