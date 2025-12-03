@@ -12,6 +12,7 @@ Gestión de perfil personalizada
 Sistema de escaneo QR para asistencia
 
 🏗️ Arquitectura Técnica
+
 Stack Tecnológico
 Categoría	Tecnología	Versión
 Frontend	React	18.2.0
@@ -21,6 +22,7 @@ UI Icons	Lucide React	0.344.0
 Estilos	Tailwind CSS	(via config)
 
 Estructura del Proyecto
+
 APP-SENATI-V1/
 ├── components/          # Componentes React reutilizables
 │   ├── BottomNav.tsx   # Navegación inferior
