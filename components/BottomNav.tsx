@@ -16,18 +16,18 @@ export const BottomNav: React.FC<BottomNavProps> = ({ currentView, setView }) =>
   ];
 
   return (
-    <div className="fixed bottom-0 left-0 right-0 bg-white border-t border-gray-200 pb-safe pt-2 px-2 z-50">
-      <div className="flex justify-around items-end pb-2 max-w-md mx-auto">
+    <div className="fixed bottom-0 left-1/2 -translate-x-1/2 w-full max-w-md bg-white border-t border-gray-200 pb-safe pt-2 px-2 z-50">
+      <div className="flex justify-around items-end max-w-md mx-auto">
         {navItems.map((item) => {
           const isActive = currentView === item.id;
           const Icon = item.icon;
-          
+
           if (item.highlight) {
             return (
               <button
                 key={item.id}
                 onClick={() => setView(item.id as ViewState)}
-                className="relative -top-5 flex flex-col items-center justify-center group"
+                className="relative -top-3 flex flex-col items-center justify-center group"
               >
                 <div className={`w-14 h-14 rounded-full flex items-center justify-center shadow-lg transition-transform ${isActive ? 'bg-senati-dark scale-110' : 'bg-senati-blue hover:bg-senati-dark'}`}>
                   <Icon size={24} className="text-white" />
